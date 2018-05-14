@@ -1,0 +1,176 @@
+<html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landingPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <?php include 'functions.php'; ?>
+    
+    <div class="head" >
+        <div style="background-color:blue;">
+            <img src="mosey/Hero-image.png" style="position:relative;width:100%;height:auto;">
+            <div class="headerText">
+                <p>Share your experiences with the world.</p>
+                <p>
+                    <em>Create unique experiences around your city, and earn extra money
+                    <br>
+                        by bringing others along.
+                    </em>
+                </p>
+                
+                    
+                     <form method="post">
+                     <div class="input-group mb-3" style="text-align:center;width:680px;border-radius:50px 10px 10px 10px;margin-left:330px;">
+                         <div>
+                             <input name="email" type="text" style="border-radius:20px 20px 20px 20px;width:690px;" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                             <button name="getEmail" style="height:32px;margin-top:-45px;margin-left:550px;border-radius:20px;border:none;color:white;background-color:#ff4d4d;text-align:center;">Get early access</button>            
+                         </div>    
+                     </div>
+                 </div>
+                 </form>
+                    
+                    
+                            
+            </div>            
+        </div>
+        
+        <div class="firstblurDiv">
+            
+            <img src="mosey/Vignettes.png" style="top:460px;display:block;position:absolute;margin-left:20px;width:1300px; height:60%; background-color:red;">
+            <div class="blur">                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div style="text-align:center; position:relative;width:100%;height:220px;margin-top:-500px;">
+        <p style="font-size:30px;font-weight:bold;font-family:Arial;">People all over the world share their experiences<br>
+        with troop</p>
+        
+        <p style="font-size:20px;font-family:Arial;color:grey;">Hosts are chefs, hikers, or just knowledge locals who want to show<br>
+       others little known pockets of their community. They can host an<br>
+        experience or multiple ones over the course of a few days.</p>
+    </div>
+    
+    
+    <br><br><br>
+    <div style="text-align:center; position:relative;width:100%;height:1350px;">
+        <p style="font-size:30px;font-weight:bold;font-family:Arial;"">App Features (2)</p>
+        
+        <div class="gridContainer">
+        
+            <div style="text-align:right;">
+                <br><br>
+                <img src="mosey/handshake.png" style="width:50px;height:50px;"">
+                <p style="color:pink;font-size:20px;">Meet more people</p>
+                <p style="color:rgb(39, 143, 186);">Join a global community of travellers.<br>
+                Connect through meetups & events;
+                </p>
+                
+                <br><br>
+                <img src="mosey/handshake.png" style="width:50px;height:50px;"">
+                <p style="color:pink;font-size:20px;">Meet more people</p>
+                <p style="color:rgb(39, 143, 186);">Join a global community of travellers.<br>
+                Connect through meetups & events;
+                </p>
+            </div>
+            
+         
+            
+             
+            
+            <div>
+                <img src="mosey/app-screen@2x.png">
+            </div>
+            
+            <div style="text-align:left;">
+                <br><br>
+                <img src="mosey/speaker.png" style="width:50px;height:50px;"">
+                <p style="color:pink;font-size:20px;">Get more exposure</p>
+                <p style="color:rgb(39, 143, 186);">Join a global community of travellers.<br>
+                Connect through meetups & events;
+                </p>
+                
+                <br><br>
+                <img src="mosey/tag.png" style="width:50px;height:50px;"">
+                <p style="color:pink;font-size:20px;">Plan your trips</p>
+                <p style="color:rgb(39, 143, 186);">Join a global community of travellers.<br>
+                Connect through meetups & events;
+                </p>
+            </div>       
+        </div>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="gridContainer2">
+            <div style="text-align:right;">
+                <img src="mosey/app-screen@2x.png">
+            </div>
+            
+            <div style="text-align:left;">
+            <br><br><br><br><br>
+                <div class="innergrid">
+                    <div><img src="mosey/speaker.png" style="width:50px;height:50px;"></div>
+                    <div style="text-align:left;">
+                        <p style="color:pink;">Get more exposure</p>
+                        <p style="color:rgb(39, 143, 186);">Millions of travellers can find your<br>
+                        experiences in an instant.
+                        </p>
+                    </div>
+                    
+                    <div><img src="mosey/tag.png" style="width:50px;height:50px;""></div>
+                    <div style="text-align:left;">
+                        <p style="color:pink;">Get more exposure</p>
+                        <p style="color:rgb(39, 143, 186);">Millions of travellers can find your<br>
+                        experiences in an instant.
+                        </p>
+                    </div>
+                    
+                    <div><img src="mosey/handshake.png" style="width:50px;height:50px;"></div>
+                    <div style="text-align:left;">
+                        <p style="color:pink;">Get more exposure</p>
+                        <p style="color:rgb(39, 143, 186);">Millions of travellers can find your<br>
+                        experiences in an instant.
+                        </p>
+                    </div>                    
+                    
+                </div>
+            </div>
+                        
+        </div>
+    </div>
+    
+    
+    <br><br><br><br>
+    <div style="text-align:center;position:absolute;width:100%;">
+        <p style="font-size:30px;font-weight:bold;font-family:Arial;">Ready to share your travel experiences?<br>
+        </p>
+        
+        <p style="font-size:20px;font-family:Arial;color:grey;">Be the first to get the app and earn a chance to win VIP access worth $100
+        </p>
+        
+        <br><br>
+        <form method="post">
+        <div class="input-group mb-3" style="text-align:center;width:680px;border-radius:50px 10px 10px 10px;margin-left:330px;">
+            <div>
+                <input name="email" type="text" style="border-radius:20px 20px 20px 20px;width:690px;" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button name="getEmail" style="height:32px;margin-top:-45px;margin-left:550px;border-radius:20px;border:none;color:white;background-color:#ff4d4d;text-align:center;">Get early access</button>            
+            </div>    
+        </div>
+    </div>
+    </form>
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<body>
+
+<html>
+
